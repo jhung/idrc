@@ -1,5 +1,69 @@
 # Changelog
 
+## [3.0.0](https://github.com/jhung/idrc/compare/v2.3.0...v3.0.0) (2024-02-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* update site architecture with new Trivet features ([#665](https://github.com/jhung/idrc/issues/665))
+
+### Features
+
+* add external and download icons to links automatically ([#639](https://github.com/jhung/idrc/issues/639)) ([f87ffc5](https://github.com/jhung/idrc/commit/f87ffc55f9d5069e7927e4f837226bd8ad2fd2fc))
+* add multilingual support to projects content type (resolves [#627](https://github.com/jhung/idrc/issues/627), [#628](https://github.com/jhung/idrc/issues/628), [#629](https://github.com/jhung/idrc/issues/629)) ([#630](https://github.com/jhung/idrc/issues/630)) ([de3a1fb](https://github.com/jhung/idrc/commit/de3a1fb3993760eca85b793632900ad5205a0288))
+* add toggle to allow news and ideas to be archived ([#635](https://github.com/jhung/idrc/issues/635)) (resolves [#170](https://github.com/jhung/idrc/issues/170)) ([7b79c75](https://github.com/jhung/idrc/commit/7b79c755f51d67c2161e32116652ea35a1cbc8a4))
+* clarify CMS labels ([0c832f3](https://github.com/jhung/idrc/commit/0c832f35a9e1298d66e7b13e16d0509cc31cd215))
+* clarify CMS labels ([b7fd10e](https://github.com/jhung/idrc/commit/b7fd10ea65cf2f13101aed657f5f7b39f23203e1))
+* disallow indexing of /lib ([#696](https://github.com/jhung/idrc/issues/696)) ([0e0c634](https://github.com/jhung/idrc/commit/0e0c634eff4b493d3b1d7a81cba1e6c03f0a6376))
+* handle slugs explicitly, update eleventy-plugin-fluid ([#743](https://github.com/jhung/idrc/issues/743)) ([7ba8c58](https://github.com/jhung/idrc/commit/7ba8c5814874fe9c5d328666d6bbe064338d6d2c))
+* lint JS in Markdown ([#688](https://github.com/jhung/idrc/issues/688)) ([10bd83b](https://github.com/jhung/idrc/commit/10bd83b5e68c40b1baca33bdb4b0e942862b7e9c))
+* Redirect achecker.ca to primary domain ([#331](https://github.com/jhung/idrc/issues/331)) ([4293fae](https://github.com/jhung/idrc/commit/4293fae1711467882ab85b234f70f706b213ce04))
+* redirect legacy 443-whatisinclusivedesign to /about/philosophy/ ([#424](https://github.com/jhung/idrc/issues/424)) ([fa80d59](https://github.com/jhung/idrc/commit/fa80d5906db6ef044bfa2fa4fecdfe5948f46c15))
+* remove analytics (resolves [#813](https://github.com/jhung/idrc/issues/813)) ([#814](https://github.com/jhung/idrc/issues/814)) ([f532e22](https://github.com/jhung/idrc/commit/f532e22ebddbf4692d6346ff835b685266cc3a9d))
+* replace Netlify CMS with Decap CMS ([#699](https://github.com/jhung/idrc/issues/699)) ([e3beeee](https://github.com/jhung/idrc/commit/e3beeee6da4108800bcb690e85e0308327d0cc62))
+* replace project permalink field with slug field, restore missing order field, fix localization ([#724](https://github.com/jhung/idrc/issues/724)) ([022e57c](https://github.com/jhung/idrc/commit/022e57ce39177ba49c68399e832461da0c1db2f8))
+* update projects, add Weavly and TAE ([#405](https://github.com/jhung/idrc/issues/405)) ([7c50b76](https://github.com/jhung/idrc/commit/7c50b76fac6aa468d15222b5ab79113ae1b29393))
+* update site architecture with new Trivet features ([#665](https://github.com/jhung/idrc/issues/665)) ([a79ba18](https://github.com/jhung/idrc/commit/a79ba18542438fb4bcfcc9306ac6a9fb6d5652a6))
+* update to eleventy-plugin-fluid asset processing ([#651](https://github.com/jhung/idrc/issues/651)) ([ae2ebb8](https://github.com/jhung/idrc/commit/ae2ebb8c5a3d36e186adb02e0c111ac77e6bf2fa))
+
+
+### Bug Fixes
+
+* accessiblity issues ([#741](https://github.com/jhung/idrc/issues/741)) ([01b3668](https://github.com/jhung/idrc/commit/01b36689c3f3e8243e47756f1a9b437c97a0f113))
+* add EDS redirect ([e70b34e](https://github.com/jhung/idrc/commit/e70b34e442a319011ba3416e3254858c18ef56b9))
+* add Infusion core CSS ([2b4e117](https://github.com/jhung/idrc/commit/2b4e1171fb21b9fc3d2cef968d440b22ad9b5771))
+* Add svg tags around the logo svg ([#621](https://github.com/jhung/idrc/issues/621)) ([ca7fadb](https://github.com/jhung/idrc/commit/ca7fadb7636b5fdbfb6c7d600efec6f83a8382d0))
+* adjust bullet size based on current heading ([#700](https://github.com/jhung/idrc/issues/700)) ([6dcc1cb](https://github.com/jhung/idrc/commit/6dcc1cb6ba1345f882f0b2f90a3269ebdb3a32b6))
+* adjust YouTube embed styles ([#668](https://github.com/jhung/idrc/issues/668)) ([13843c4](https://github.com/jhung/idrc/commit/13843c4de754dac145002c15168b1c2a03f10d8f))
+* console error in previews.js ([#669](https://github.com/jhung/idrc/issues/669)) ([f656e80](https://github.com/jhung/idrc/commit/f656e8097fafd53bccce946d658d6982aae7de0e))
+* eleventy start command ([#640](https://github.com/jhung/idrc/issues/640)) ([84db9bf](https://github.com/jhung/idrc/commit/84db9bf3133425040f0e04f8ad4e47127bf27284))
+* exclude CMS from sitemap ([#689](https://github.com/jhung/idrc/issues/689)) ([c745e63](https://github.com/jhung/idrc/commit/c745e63b7ea0110b84f91db1814cac8812e419ad))
+* fix distorted project thumbnails when resizing screen ([#506](https://github.com/jhung/idrc/issues/506)) (resolved [#498](https://github.com/jhung/idrc/issues/498)) ([2d29071](https://github.com/jhung/idrc/commit/2d29071c872caa16144e9014a9b1a58670b4ec9f))
+* fix lighthouse CI failures ([#509](https://github.com/jhung/idrc/issues/509)) ([91042a7](https://github.com/jhung/idrc/commit/91042a70eefc47863c51d8569c6c767b54924029))
+* fix the display order of project "Communication Access within the Accessible Canada Act" ([d0176b1](https://github.com/jhung/idrc/commit/d0176b1e909a6620f48c816630ff592d5e08bb4b))
+* interaction styles for navigation bar and footer links ([#642](https://github.com/jhung/idrc/issues/642)) ([28a4aca](https://github.com/jhung/idrc/commit/28a4acaf70f3e13be60c31d19c94654f78181852))
+* more sensible project title setup (resolves [#719](https://github.com/jhung/idrc/issues/719)) ([#733](https://github.com/jhung/idrc/issues/733)) ([ea33d60](https://github.com/jhung/idrc/commit/ea33d601018f4e71052575f2473c14c2db91e5a7))
+* redirect EDS page ([#672](https://github.com/jhung/idrc/issues/672)) ([c6141ac](https://github.com/jhung/idrc/commit/c6141ac1d7864db07460102f2e9585db044cd1db))
+* redirect to external ACAW/CAMA page ([#865](https://github.com/jhung/idrc/issues/865)) ([588eeff](https://github.com/jhung/idrc/commit/588eefff3c588e18102824a22bcce133e05092f1))
+* redirect typo URL to ACAW event page ([#868](https://github.com/jhung/idrc/issues/868)) ([19ad840](https://github.com/jhung/idrc/commit/19ad84010c3bfa266f8561bdc7699643d8dd8f54))
+* reduce breakpoint to small for nav bar banner ([#622](https://github.com/jhung/idrc/issues/622)) ([d09d4e1](https://github.com/jhung/idrc/commit/d09d4e159c0e840234177fb6b90d58fecba73363))
+* remove test translation ([5447727](https://github.com/jhung/idrc/commit/5447727a95ca61606ba881987a0ed18d949dfcc9))
+* resolve critical error in CMS ([a30056a](https://github.com/jhung/idrc/commit/a30056a4f2b0ebe847984081b21bca27b8e1a866))
+* resolve header styling on home page ([#641](https://github.com/jhung/idrc/issues/641)) ([71857ff](https://github.com/jhung/idrc/commit/71857ff694d37e2266376cca2f322795dd1537b7))
+* resolve mixed content error ([afb9e26](https://github.com/jhung/idrc/commit/afb9e2695c0cbaa32514688a86aedde5a13b6374))
+* resolve page layout regression ([#654](https://github.com/jhung/idrc/issues/654)) ([be0c377](https://github.com/jhung/idrc/commit/be0c377f88fa44785e6d2c9acffb041569d25ca8))
+* resolve slug error ([#746](https://github.com/jhung/idrc/issues/746)) ([bd08c6d](https://github.com/jhung/idrc/commit/bd08c6d7b2b446ce846b0a1497ba2a9685cef265))
+* simpler YAML lint pattern ([#686](https://github.com/jhung/idrc/issues/686)) ([6d23f13](https://github.com/jhung/idrc/commit/6d23f13736b6a849b2f7e05051015ea6ecdddf42))
+* try to address the order issue ([665f1df](https://github.com/jhung/idrc/commit/665f1df7962aaa42c535844d9c93f131597a02de))
+* Update collections' permalink to use file name ([#620](https://github.com/jhung/idrc/issues/620)) (resolves [#514](https://github.com/jhung/idrc/issues/514)) ([567ad22](https://github.com/jhung/idrc/commit/567ad224dfd699bebb9f41c7479ff9092f5950e1))
+* update dead links ([#701](https://github.com/jhung/idrc/issues/701)) ([5504e9a](https://github.com/jhung/idrc/commit/5504e9af5014e056b98aab8f41bcb01fd2224c34))
+* Update projects listing to use project name (resolves [#539](https://github.com/jhung/idrc/issues/539)) ([#541](https://github.com/jhung/idrc/issues/541)) ([a15f851](https://github.com/jhung/idrc/commit/a15f8519cf8b8ca2a92f7397b140b0ea542aeaf5))
+* update PWA plugin to Eleventy 2.0-compatible version ([#670](https://github.com/jhung/idrc/issues/670)) ([f5e2bd8](https://github.com/jhung/idrc/commit/f5e2bd810bb553566b49c95edf9260295852d427))
+* update syntax in permalinks ([2947e09](https://github.com/jhung/idrc/commit/2947e0974b04df2937ba8c3cb63ca4ee8964fa7a))
+* use correct Dependabot ignore syntax ([#690](https://github.com/jhung/idrc/issues/690)) ([08ddc93](https://github.com/jhung/idrc/commit/08ddc93b6e00aadb6a3e273860560494134fcae8))
+* use null for permalink ([#867](https://github.com/jhung/idrc/issues/867)) ([70fa674](https://github.com/jhung/idrc/commit/70fa6740ebbeffaf4b52e73b73f9ace35bdb0c32))
+* use project-specific Markdown filter (resolves [#634](https://github.com/jhung/idrc/issues/634)) ([#636](https://github.com/jhung/idrc/issues/636)) ([9ebe519](https://github.com/jhung/idrc/commit/9ebe519d34c4ccfb938407c65d75202a8b76965f))
+
 ## [2.3.0](https://github.com/inclusive-design/idrc/compare/v2.2.1...v2.3.0) (2023-11-23)
 
 
